@@ -1,2 +1,2 @@
-# shakyarjn.github.io
+# Rujen Shakya
 Personal Site
