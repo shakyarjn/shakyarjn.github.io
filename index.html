@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Rujen Shakya</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1dd4d86d8d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <!-- Need a new logo for the site -->
+                    <img src="images/logo.png" alt="logo" class="logo">
+                    <ul id = "sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+                        <!-- Close menu -->
+                        <i class="fas fa-solid fa-xmark" onclick = "closemenu()"></i>
+                        <!-- <i class="fasfa-solid fa-bars" onclick="openmenu()"></i> -->
+                    </ul>
+                    <!-- Open menu  -->
+                    
+                </nav>
+                <div class="header-text">
+                    
+                    <h1>Hi, I'm <span>Rujen</span> <br> from Nepal! </h1><br>
+                    <p>Project Manager | <br>Professional Scrum Master™ I (PSM I)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+         <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about-me.png" alt="about">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>With almost a decade of diverse professional experience, spanning industries such as media, technology, and social work, I bring a dynamic skill set to the table. I thrive in
+                            multi-faceted roles with proven experience and understanding of business acumen, oerations, technology, leadership and communication.
+                        </p>
+                        
+                            <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                            <p class="tab-links" onclick="opentab('experience')"><b>Experience</b></p>
+                            <p class="tab-links" onclick="opentab('academics')"><b>Academics</b></p>
+                            <p class="tab-links" onclick="opentab('certifications')"><b>Certifications</b></p>
+                        </div>    
+                        <!-- Tab Contents -->
+                         <!-- Skills -->
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Project Management</span><br>Scrum Master (PSM)</li>
+                                <li><span>Data Analytics and AI/ML</span><br>Excel, Python, R, SQL (PSM)</li>
+                                <li><span>Reporting</span><br>Documentation</li>
+                                <li><span>Customer Relationship Management</span><br>Both Domestic and International</li>
+                            </ul>
+                         </div>
+
+                         <!-- Experience -->
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2019-2023</span><br>Project Manager | Scrum Master | Product Owner <br> Leapfrog Technology P. Ltd.</li>
+                                <li><span>2017-2018</span><br>Sr. Subject Matter Expert <br>Vianet Communications P. Ltd.</li>
+                                <!-- <li><span>2017-2017</span><br>Digital Marketer <br>Honey Guide Apps</li> -->
+                                <li><span>2014-2017</span><br>Sales Executive <br> Worldlink Communications P. Ltd.</li>
+                            </ul>
+                         </div>
+
+                         <!-- Academic Training -->
+                         <div class="tab-contents" id="academics">
+                            <ul>
+                                <li><span>2022-2024</span><br>Master's in Business and Economics (MBE) <br>Kathmandu University School of Management (KUSOM) | Nepal <br> <!-- Major: Economics and Quantitative Techniques --></li>
+                                <li><span>2017-2019</span><br>Level 4 and Level 5 Diploma in Computing (L4DC and L5DC)<br>NCC Education | UK (Ofqual Regulated) <br> <!-- Major: Computing and Computer Science --></li>
+                                <li><span>2014-2018</span><br>Bachelor's in Business Studies (BBS) <br>Tribhuvan University | Nepal <br> <!-- Major: Sales and Marketing --></li>
+                            </ul>
+                         </div>
+
+                         <!-- Certifications -->
+                         <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>Professional Scrum Master™ I (PSM I)</span><br><a href="https://www.scrum.org/user/794950">Click to know more: <img src="images/scrum-badge.svg" alt=""></a></li>
+                            </ul>
+                         </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- Services Section -->
+          <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <!-- Icon from font awesome -->
+                        <i class="fa-solid fa-road"></i>
+                        <h2>Project Management</h2>
+                        <p><ul>• Handled clients based in different states in the US (different time-zones concurrently) with different backgrounds including Start-up Founders, Data
+                            Scientists, and Product Managers working in the sectors of US Healthcare (HIPPA and SOC2 Compliant), Ed-Tech. </ul> <br>
+                            <ul>• Simultaneous project execution and leadership to multiple cross-functional Scrum teams throughout a complete software development project
+                            management lifecycle including project scoping, resource planning and management, communication, estimation, risk management, and reporting.</ul></p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                        <h2>Research</h2>
+                        <p><ul>• Conducted primary research for Worldlink for the launch of their SME and SOHO services in Nepal back in 2015 which involved questionnaire designing, data gathering, in-person interviews and data analysis for the scope of the product and marketing of the same.</ul><br>
+                        <ul>• Rigorous academic training in research on economic issues with a primary focus on quantitative data analysis.</ul></p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Technology</h2>
+                        <p><ul>• Desktop Banking App using JAVA and SQL. </ul>
+                           <ul>• Web based - Event Management App using HTML5, CSS3, PhP Laravel and My SQL.</ul>
+                           <ul>• Economic Input-Output Analysis using Python. </ul>
+                           <ul>• Stock Market Prediction using CNN in Python. </ul>
+                           </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- Portfolio Section -->
+           <!-- <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/2.png" alt="work-1">
+                            <div class="layer">
+                                <h3>Social media App</h3>
+                                <p>This is the description.</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/2.png" alt="work-1">
+                            <div class="layer">
+                                <h3>Social media App</h3>
+                                <p>This is the description.</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/2.png" alt="work-1">
+                            <div class="layer">
+                                <h3>Social media App</h3>
+                                <p>This is the description.</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+           </div> -->
+
+           <!-- Contact Section -->
+           <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <!-- <p><i class="fa-regular fa-paper-plane"></i>shakyarujen@gmail.com</p> -->
+                            <!-- <p><i class="fa-solid fa-square-phone"></i>+977-9849702525</p> -->
+                           
+                            <div class="social-icons">
+                                <a href="mailto:shakyarujen1@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                                <a href="https://www.linkedin.com/in/shakyarujen/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://twitter.com/shakyarjn"><i class="fa-brands fa-x-twitter"></i></a>
+                            </div>
+                            <!-- Download CV -->
+                            <!-- <a href="images/Resume_Rujen_2024_02_C++.pdf" download class="btn btn2">Download CV</a> -->
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type = "submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+           <!-- Copyright -->
+            <div class="copyright">
+                <p>Copyright (c) Rujen. <i class="fa-solid fa-heart"></i></p>
+            </div>
+            </div>
+           
+<!-- JS for About Section -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");                    
+            }
+
+            // Highlight the clicked event tab
+            event.currentTarget.classList.add("active-link");
+            // Adds active tab
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>     
+    
+    <!-- Script for menu -->
+     <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+
+     </script>
+
+     <!-- Script for contact form -->
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzoZ_C_5D8DB0eUnWQUOUiEjaM5tkiQASfij7t8jnlpPGcVmGRg7Nz4GRIyiMaFMf0N/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    </body>
+</html>
